@@ -1,0 +1,25 @@
+{
+  "name": "測試_正修請假工具",
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "如過遇到當學期超過10天未請的架，被請假系統鎖死，可使用此工具協助您",
+  "action": {
+      "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "24": "icon24.png", 
+    "32": "icon32.png" ,
+    "48": "icon48.png" ,
+    "128": "icon.png"
+  },
+  "permissions": [
+    "storage","tabs","activeTab","scripting"
+  ],
+  "optional_host_permissions": [
+    "https://*/*","http://*/*"
+  ]
+}

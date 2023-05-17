@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'GenSenRounded-L_0';
+    src: url('./GenSenRounded-L_0.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'SmileySans-forWebsite';
+    src: url('./SmileySans-forWebsite.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'GenSenRounded-R_0';
+    src: url('./GenSenRounded-R_0.woff2') format('woff2');
+}
+button{
+    font-family: "GenSenRounded-R_0";
+    width:100%;
+    height: 50px;
+    background:#ffffff;
+    background-size: 100%;
+    color:#000000;
+    border-radius:10px;
+    margin: 5px 5px 5px 5px;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.095);
+    border-style:none;
+}
+body { 
+    min-width:250px; 
+    text-align: center; 
+    font-family: "GenSenRounded-L_0";
+    font-weight: normal;
+    margin: 5px;
+    padding:5px;
+}
+#unblock{ 
+    font-size: 20px; 
+}
+h1{
+    font-family: "GenSenRounded-L_0";
+    font-weight: normal;
+    font-size:15px;
+    line-height: 30px;
+}
+.boxbody{
+    width:100%;
+    height:100px;
+    background:#ffffff;
+    background-size: 100%;
+    color:#000000;
+    border-radius:10px;
+    margin: 5px 5px 5px 5px;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.095);
+    border-style:none;
+    padding:4px;
+    
+}
+.fiexd-header{
+    width:100%;
+    background:#ffffff;
+    background-size: 100%;
+    color:#000000;
+    border-radius:10px;
+    margin: 5px 5px 5px 5px;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.095);
+    border-style:none;
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+}
+h3{
+    font-family: 'SmileySans-forWebsite';
+    font-weight: normal;
+}
